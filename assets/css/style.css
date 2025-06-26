@@ -1,0 +1,932 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #000;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 1820px;
+  width: 100%;
+  margin: auto;
+}
+
+
+.object-contain {
+  object-fit: contain;
+}
+.object-cover {
+  object-fit: cover;
+}
+.rounded-1 {
+  border-radius: 10px !important;
+}
+.rounded-2 {
+  border-radius: 20px !important;
+}
+.rounded-3 {
+  border-radius: 30px !important;
+}
+
+.bg-dark {
+  background-color: #000 !important;
+}
+.text-black-50 {
+  color: #000 !important;
+}
+.bg-light{
+  background-color: #E6E6E6 !important;
+}
+
+.fw-300 {
+  font-weight: 300 !important;
+}
+.fw-500 {
+  font-weight: 500 !important;
+}
+.fw-600 {
+  font-weight: 600 !important;
+}
+.fw-700 {
+  font-weight: 700 !important;
+}
+.fw-800 {
+  font-weight: 800 !important;
+}
+.fw-900 {
+  font-weight: 900 !important;
+}
+
+/* 0 */
+
+.ls-001 {
+  letter-spacing: -0.01em;
+}
+.ls-002 {
+  letter-spacing: -0.02em;
+}
+.ls-003 {
+  letter-spacing: -0.03em;
+}
+.ls-25 {
+  letter-spacing: 0.25em;
+}
+.ls-100 {
+  letter-spacing: 0.1em;
+}
+.ls-150 {
+  letter-spacing: 0.15em;
+}
+.ls-200 {
+  letter-spacing: 0.2em;
+}
+.ls-300 {
+  letter-spacing: 0.03em;
+}
+.ls-500 {
+  letter-spacing: 0.05em;
+}
+.ls-002 {
+  letter-spacing: -0.02em;
+}
+.ls-004 {
+  letter-spacing: -0.04em;
+}
+.ls-144 {
+  letter-spacing: -1.44px;
+}
+.ls-072 {
+  letter-spacing: -0.72px;
+}
+
+/* 0 */
+
+/* 01 */
+h1,
+.h1 {
+  font-size: 122px;
+  line-height: 0.85;
+  letter-spacing: -0.04em;
+}
+.fs-13 {
+  font-size: 13px;
+}
+.fs-14 {
+  font-size: 14px;
+}
+.fs-15 {
+  font-size: 15px !important;
+}
+.fs-16 {
+  font-size: 16px;
+}
+.fs-17 {
+  font-size: 17px;
+}
+.fs-18 {
+  font-size: 18px;
+}
+.fs-20 {
+  font-size: 20px;
+}
+.fs-23 {
+  font-size: 23px;
+}
+.fs-24 {
+  font-size: 24px;
+}
+.fs-25 {
+  font-size: 25px;
+}
+.fs-28 {
+  font-size: 28px;
+}
+.fs-30 {
+  font-size: 30px;
+}
+.fs-35 {
+  font-size: 35px;
+}
+.fs-36 {
+  font-size: 36px;
+}
+.fs-40 {
+  font-size: 40px;
+}
+.fs-42 {
+  font-size: 42px;
+}
+.fs-55 {
+  font-size: 55px;
+}
+.fs-60 {
+  font-size: 60px;
+}
+.fs-90 {
+  font-size: 90px;
+}
+.fs-100{
+  font-size: 100px;
+}
+
+/* 01 */
+
+/* 02 */
+.lh-0 {
+  line-height: normal;
+}
+.lh-0-9 {
+  line-height: 0.9;
+}
+.lh-1-2 {
+  line-height: 1.2;
+}
+.lh-1-3 {
+  line-height: 1.3;
+}
+.lh-1-4 {
+  line-height: 1.4;
+}
+.lh-1-5 {
+  line-height: 1.5;
+}
+.lh-1-7 {
+  line-height: 1.7;
+}
+.lh-1-8 {
+  line-height: 1.8;
+}
+.lh-2 {
+  line-height: 2;
+}
+.lh-2-9{
+  line-height: 2.9;
+}
+/* 02 */
+.text-shadow {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.btn {
+  padding: 17px 30px;
+  border: 1px solid;
+  border-radius: 0px;
+  line-height: normal;
+  font-size: 24px;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+}
+.btn-light{
+  background-color: #7D7D7D;
+  border-color: #7D7D7D;
+  color: #fff;
+}
+.btn-light:hover, .btn-light:focus{
+  background-color: #fff;
+  border-color: #fff;
+  color: #000;
+}
+.welcome-text .btn {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 13px 115px;
+}
+
+.navbar-brand {
+  display: inline-block;
+  max-width:638px;
+  width: 100%;
+}
+
+.navbar-nav .nav-link {
+  line-height: normal;
+  padding: 0 !important;
+  display: inline-block;
+  color: #fff;
+  font-size: 24px;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+}
+.navbar-nav > li + li {
+  margin-left: 60px;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover, .contact-info ul li a:hover, .footer-links ul li a:hover {
+  color: #7D7D7D;
+}
+
+/* .offcanvas, .site-logo, .nav-right{
+  width: 33%;
+} */
+
+/* .nav-left, .nav-center, .nav-right{
+  width: 33%;
+} */
+button#ScrollToTop {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background: transparent;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 2px solid #7D7D7D;
+  z-index: 99;
+  color: #7D7D7D;
+}
+
+button#ScrollToTop:hover {
+  background: #7D7D7D;
+  color: #fff;
+}
+
+@media (min-width: 992px) {
+  div#navbarOffcanvas {
+    position: inherit !important;
+    flex-direction: row;
+    visibility: visible;
+    width: auto;
+    transform: translateX(0%);
+    border-right: 0;
+    margin-left: 0;
+    background-color: transparent;
+  }
+  .offcanvas-body {
+    flex-grow: 0;
+    padding: 0;
+    overflow-y: visible;
+  }
+}
+
+.carousel-item::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  /* background-color: rgb(0 0 0 / 40%); */
+  background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  opacity: 0.5; 
+  pointer-events: none;
+  z-index: 1;
+}
+
+.carousel-inner .container{
+  position: relative;
+  z-index: 2;
+}
+.automotive-text h2{
+  background: linear-gradient(
+    180deg,
+    rgba(194, 194, 194, 1) 0%,
+    rgba(70, 70, 70, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 285px;
+  line-height: 0.8;
+  letter-spacing: -0.03em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.mobile-line{
+  width: 106px;
+  height: 10px;
+}
+.mobile-sec {
+  margin-top: -100px;
+  position: relative;
+  z-index: 9;
+}
+.meet-text h2{
+  width: fit-content;
+  margin: auto;
+}
+.testimonial-sec{
+  background-image: url(../images/testimonial-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.rating-star i{
+  color: #EEB600 ;
+}
+.slick-slide {
+  padding-right: 100px;
+}
+
+footer{
+  background-image: url(../images/footerr-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact-info ul li a, .contact-info ul li{
+  color: #ffffff;
+  font-size: 25px;
+  line-height: 1.5;
+}
+
+.contact-info ul li{
+  margin: 30px 0;
+  padding-left: 35px;
+  position: relative;
+}
+.contact-info ul li::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: 'FontAwesome';
+  font-size: 25px;
+  color: #fff;
+}
+.contact-info ul li:nth-child(2)::before{
+  content: '';
+}
+.contact-info ul li:nth-child(3)::before{
+  content: '';
+}
+
+.footer-links ul li a{
+  color: #ffffff;
+  font-size: 25px;
+  line-height: 1.7;
+  font-weight: 400;
+}
+.wel-img-1{
+  background: #d9d9d9;
+  border-radius: 0px 150px 0px 150px;
+  width: 310px;
+  height: 320px;
+  overflow: hidden;
+}
+.wel-shape-1{
+  background: #414141;
+  border-radius: 100px 0px 0px 0px;
+  width: 270px;
+  height: 261px;
+}
+.wel-shape-2{
+  background: #000000;
+  border-radius: 500px 0px 0px 0px;
+  width: 243px;
+  height: 251px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-68%, -30%);
+  z-index: 1;
+}
+.wel-img-2{
+  background: #414141;
+  border-radius: 0px 0px 100px 0px;
+  width: 270px;
+  height: 261px;
+  overflow: hidden;
+  margin-left:auto ;
+  position: relative;
+  margin-top: -60px;
+}
+
+
+
+
+
+
+@media(max-width:1850px){
+  .container{
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  h1, .h1 {
+    font-size: 90px;
+}
+.fs-24 {
+    font-size: 20px;
+}
+.navbar-brand {
+    max-width: 498px;
+}
+.navbar-nav .nav-link {
+    font-size: 20px;
+}
+.btn {
+    padding: 12px 25px;
+    font-size: 20px;
+}
+.fs-28 {
+    font-size: 22px;
+}
+.automotive-text h2 {
+    font-size: 242px;
+    text-align: center;
+}
+.fs-30 {
+    font-size: 25px;
+}
+.mobile-line {
+    height: 6px;
+}
+.fs-42 {
+    font-size: 35px;
+}
+.fs-23 {
+    font-size: 19px;
+}
+.fs-100 {
+    font-size: 80px;
+}
+.fs-20 {
+    font-size: 17px;
+}
+.fs-18 {
+    font-size: 16px;
+}
+.fs-55 {
+    font-size: 45px;
+}
+.fs-90 {
+    font-size: 70px;
+}
+.fs-36 {
+    font-size: 30px;
+}
+.contact-info ul li a, .contact-info ul li, .footer-links ul li a {
+    font-size: 20px;
+}
+.contact-info ul li::before {
+    font-size: 20px;
+}
+.fs-16 {
+    font-size: 14px;
+}
+.fs-60 {
+  font-size: 50px;
+}
+.fs-25 {
+  font-size: 20px;
+}
+.welcome-text .btn {
+  font-size: 17px;
+  padding: 12px 85px;
+}
+}
+@media(max-width:1600px){
+  .navbar-brand {
+    max-width: 450px;
+}
+.navbar-nav .nav-link {
+    font-size: 18px;
+}
+.btn {
+    padding: 12px 25px;
+    font-size: 18px;
+}
+.fs-24, .fs-28 {
+    font-size: 18px;
+}
+h1, .h1 {
+    font-size: 70px;
+}
+.automotive-text h2 {
+    font-size: 210px;
+}
+.fs-30 {
+    font-size: 22px;
+}
+.mobile-line {
+    height: 5px;
+}
+.fs-42 {
+    font-size: 30px;
+}
+.fs-23 {
+    font-size: 16px;
+}
+.fs-100 {
+    font-size: 65px;
+}
+.fs-20, .fs-18 {
+    font-size: 15px;
+}
+.fs-55 {
+    font-size: 40px;
+}
+.fs-90 {
+    font-size: 55px;
+}
+.fs-36 {
+font-size: 25px;
+}
+.contact-info ul li a, .contact-info ul li, .footer-links ul li a {
+    font-size: 18px;
+}
+.contact-info ul li::before {
+    font-size: 18px;
+}
+.wel-img-1 {
+  width: 270px;
+  height: 280px;
+}
+.wel-shape-1 {
+  width: 250px;
+  height: 230px;
+}
+.wel-shape-2 {
+  width: 213px;
+  height: 221px;
+  transform: translate(-90%, -27%);
+}
+.wel-img-2 {
+  width: 240px;
+  height: 231px;
+}
+.fs-60 {
+  font-size: 45px;
+}
+.fs-25 {
+  font-size: 18px;
+}
+.welcome-text .btn {
+font-size: 15px;
+padding: 12px 55px;
+}
+}
+@media(max-width:1400px){
+  .navbar-brand {
+    max-width: 400px;
+}
+.navbar-nav .nav-link {
+  font-size: 15px;
+}
+.btn {
+  padding: 10px 20px;
+  font-size: 15px;
+}
+.fs-24, .fs-28 {
+  font-size: 15px;
+}
+h1, .h1 {
+  font-size: 55px;
+}
+.automotive-text h2 {
+  font-size: 180px;
+}
+.fs-30 {
+  font-size: 18px;
+}
+.mobile-sec {
+margin-top: -70px;
+}
+.fs-42 {
+  font-size: 25px;
+}
+.fs-23 {
+  font-size: 15px;
+}
+.fs-100 {
+  font-size: 55px;
+}
+.slick-slide {
+padding-right: 50px;
+}
+.fs-55 {
+  font-size: 35px;
+}
+.fs-90 {
+  font-size: 45px;
+}
+.fs-36 {
+  font-size: 22px;
+}
+.contact-info ul li a, .contact-info ul li, .footer-links ul li a {
+  font-size: 15px;
+}
+.contact-info ul li::before {
+  font-size: 16px;
+}
+.contact-info ul li {
+margin: 20px 0;
+padding-left: 30px;
+}
+.wel-img-1 {
+  width: 230px;
+  height: 250px;
+  border-radius: 0px 100px 0px 100px;
+}
+.wel-shape-1 {
+  width: 210px;
+  height: 180px;
+  border-radius: 60px 0px 0px 0px;
+}
+.wel-shape-2 {
+  width: 173px;
+  height: 171px;
+  transform: translate(-90%, -27%);
+  border-radius: 150px 0px 0px 0px;
+}
+.wel-img-2 {
+  width: 200px;
+  height: 180px;
+  border-radius: 0px 0px 60px 0px;
+  margin-top: -75px;
+}
+.fs-60 {
+  font-size: 40px;
+}
+.fs-25 {
+  font-size: 15px;
+}
+.welcome-text .btn {
+  font-size: 15px;
+  padding: 12px 35px;
+}
+}
+@media(max-width:1199px){
+  h1, .h1 {
+    font-size: 44px;
+}
+.navbar-brand {
+    max-width: 300px;
+}
+.navbar-nav > li + li {
+margin-left: 40px;
+}
+.btn {
+    padding: 8px 15px;
+    font-size: 15px;
+}
+.automotive-text h2 {
+    font-size: 150px;
+}
+.fs-42 {
+    font-size: 22px;
+}
+.fs-100 {
+    font-size: 45px;
+}
+.fs-55 {
+    font-size: 30px;
+}
+.fs-90 {
+    font-size: 38px;
+}
+.wel-img-1 {
+  width: 190px;
+  height: 200px;
+  border-radius: 0px 80px 0px 80px;
+}
+.wel-shape-1 {
+  width: 160px;
+  height: 130px;
+  border-radius: 50px 0px 0px 0px;
+}
+.wel-shape-2 {
+  width: 133px;
+  height: 131px;
+  transform: translate(-83%, -37%);
+  border-radius: 90px 0px 0px 0px;
+}
+.wel-img-2 {
+  width: 160px;
+  height: 140px;
+  border-radius: 0px 0px 50px 0px;
+  margin-top: -85px;
+}
+.fs-60 {
+  font-size: 35px;
+}
+}
+
+
+
+
+
+@media (max-width: 991.60px) {
+  .navbar-toggler {
+    font-size: 30px;
+    padding: 0;
+    color: #fff;
+    display: block;
+  }
+  .navbar-nav .nav-link {
+    margin: 8px 0px;
+  }
+
+  .navbar-toggler-icon {
+    width: auto;
+    height: auto;
+  }
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  div#navbarOffcanvas {
+    background: #000!important;
+    border-right: 0 !important;
+    padding: 35px !important;
+    width: 300px !important;
+  }
+  .navbar-nav > li + li {
+    margin-left: 0;
+  }
+
+  .offcanvas-header .btn-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    /* filter: brightness(1) invert(0); */
+    opacity: 1;
+  }
+  .offcanvas-header {
+    padding: 0;
+    display: block !important;
+  }
+  .automotive-text h2 {
+    font-size: 115px;
+}
+.wel-img-1 {
+  width: 170px;
+  height: 180px;
+  border-radius: 0px 50px 0px 50px;
+}
+.wel-shape-1 {
+  width: 140px;
+  height: 110px;
+  border-radius: 40px 0px 0px 0px;
+}
+.wel-img-2 {
+  width: 140px;
+  height: 120px;
+  border-radius: 0px 0px 50px 0px;
+  margin-top: -75px;
+}
+.wel-shape-2 {
+  width: 113px;
+  height: 111px;
+  transform: translate(-83%, -37%);
+  border-radius: 60px 0px 0px 0px;
+}
+.fs-60 {
+  font-size: 30px;
+}
+.welcome-text .btn {
+  font-size: 12px;
+  padding: 10px 30px;
+}
+}
+
+@media(max-width:767px){
+  .container{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .automotive-text h2 {
+    font-size: 85px;
+}
+h1, .h1 {
+  font-size: 35px;
+}
+.carousel-item {
+  height: 400px;
+}
+.mobile-sec {
+  margin-top: -60px;
+}
+.fs-100 {
+  font-size: 32px;
+}
+.fs-55 {
+  font-size: 25px;
+}
+.fs-90 {
+  font-size: 30px;
+}
+.contact-info ul li {
+  margin: 15px auto;
+  width: fit-content;
+}
+.wel-shape-2 {
+  transform: translate(-83%, -7%);
+}
+}
+@media(max-width:575.60px){
+  h1, .h1 {
+    font-size: 30px;
+}
+.automotive-text h2 {
+  font-size: 45px;
+}
+.banner-text span {
+  line-height: 1;
+}
+.navbar-brand {
+  max-width: 230px;
+}
+.navbar-toggler {
+  font-size: 21px;
+}
+.fs-42 {
+  font-size: 20px;
+}
+.fs-100 {
+  font-size: 28px;
+}
+.slick-slide {
+padding-right: 0px;
+}
+.fs-55 {
+font-size: 22px;
+}
+.fs-90 {
+font-size: 25px;
+}
+.mobile-sec {
+  margin-top: -50px;
+}
+.wel-img-2 {
+  width: 115px;
+  height: 98px;
+  border-radius: 0px 0px 30px 0px;
+  margin-top: -75px;
+}
+.wel-shape-2 {
+  width: 93px;
+  height: 91px;
+  transform: translate(-83%, -7%);
+  border-radius: 40px 0px 0px 0px;
+}
+.wel-shape-1 {
+  width: 120px;
+  height: 90px;
+  border-radius: 30px 0px 0px 0px;
+}
+.wel-img-1 {
+  width: 140px;
+  height: 150px;
+  border-radius: 0px 30px 0px 30px;
+}
+.fs-60 {
+  font-size: 25px;
+}
+}
+
+
+
+
